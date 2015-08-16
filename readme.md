@@ -14,3 +14,7 @@ of bottles of beer.
   - a link to "take one down, pass it around", where the href is number of bottles minus 1.
 - If there are 0 bottles left, do not show a link to "take one down"
   - Add a link to start over, which directs the user back to the home page.
+
+  ### Bonus
+
+- Try to have only 1 route!
