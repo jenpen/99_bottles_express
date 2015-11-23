@@ -3,7 +3,7 @@ var app = express();
 app.use(express.static(__dirname + '/public'));
 
 app.get("/", function(req,res){
-  res.send("99 bottles of beer on the wall. <a href='/98'>Take one down pass it around</a>")
+  res.redirect('/99');
 });
 
 app.get("/:numberOfBottles?", function( req, res ){
