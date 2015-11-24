@@ -1,0 +1,23 @@
+{
+  "name": "99_bottles_express",
+  "version": "1.0.0",
+  "description": "Express exercise. 99 bottles of beer on the wall",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenpen/99_bottles_express.git"
+  },
+  "author": "Jen Pengelly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenpen/99_bottles_express/issues"
+  },
+  "homepage": "https://github.com/jenpen/99_bottles_express#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "hbs": "^4.0.0"
+  }
+}
