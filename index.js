@@ -9,7 +9,7 @@ app.listen(3000, function(){
 });
 
 app.get("/:numberOfBottles?", function( req, res ){
-  var bottles = req.params.numberOfBottles || 99;
-  var next = bottles - 1;
-  res.render("index", {bottles: bottles, next: next});
+  var numberOfBottles = req.params.numberOfBottles || 99;
+  var next = numberOfBottles - 1;
+  res.render("index", {bottles: numberOfBottles, next: next});
 });
